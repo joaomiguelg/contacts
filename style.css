@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 60vw;
+    margin: 5vw auto 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 3em;
+    gap: 2em;
+}
+
+header ion-icon {
+    font-size: 54px;
+    color: rgb(14, 14, 148);
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+}
+
+.div-inputs {
+    display: flex;
+    gap: 2em;
+}
+
+.div-inputs input {
+    margin: 0 auto;
+    width: 18vw;
+    height: 5vh;
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+
+}
+
+.div-inputs input:hover {
+    font-size: 20px;
+    border-bottom: 2px solid rgba(13, 36, 163, 0.438);
+}
+
+.submit-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+}
+
+.div-checkbox {
+    display: flex;
+    gap: 1em;
+}
+
+.div-checkbox ion-icon {
+    font-size: 24px;
+}
+
+.div-checkbox input:hover {
+    cursor: pointer;
+
+}
+
+button {
+    width: 150px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: rgba(13, 36, 163, 0.836);
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(13, 36, 163, 0.377);
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+th {
+    font-size: 18px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    padding: 5px;
+}
+
+td {
+    border-bottom: 1px solid rgba(53, 50, 50, 0.377);
+    padding: 10px 0 3px 0;
+}
