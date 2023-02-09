@@ -18,25 +18,11 @@
             <ion-icon name="earth"></ion-icon>
             <h1>Agenda de Contatos</h1>
         </header>
-        <form>
-            <div class="div-inputs">
-                <input type="text" required placeholder="Nome:">
-                <input type="email" required placeholder="E-mail:">
-                <input type="tel" required placeholder="Telefone:">
-            </div>
-
-            <div class="submit-inputs">
-                <div class="div-checkbox">
-                    <input type="checkbox" id="social">
-                    <label for="social"><ion-icon name="people-outline"></ion-icon></label>
-                    <input type="checkbox" id="profissional">
-                    <label for="profissional"><ion-icon name="briefcase-outline"></ion-icon></label>
-                </div>
-
-                <div class="div-button">
-                    <button type="submit">Salvar</button>
-                </div>
-            </div>
+        <form id="form-contacts">
+            <input type="text" required placeholder="Nome:" id="input-name" >
+            <input type="email" required placeholder="E-mail:" id="input-mail" >
+            <input type="tel" required placeholder="Telefone:" id="input-tel" >
+            <button type="submit">Salvar</button>
         </form>
         <table cellspacing="0">
             <thead>
@@ -44,21 +30,15 @@
                     <th>Nome</th>
                     <th>E-mail</th>
                     <th>Telefone</th>
-                    <th>Tipo</th>
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>Joao</td>
-                    <td>jmgonsa@1546541</td>
-                    <td>199553546464</td>
-                    <td>social</td>
-                </tr>
             </tbody>
         </table>
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     </div>
+    <script src="./main.js"></script>
 </body>
 
 </html>
